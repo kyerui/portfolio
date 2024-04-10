@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="hamb.js" async></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img src="img\logo.png" alt="">
+            <ul class="navbar-links">
+                <li><a href="#" class="active">Sobre mim</a></li>
+                <li><a href="#portfolio-loc">Portfolio</a></li>
+                <li><a href="#skills-loc">Habilidades</a></li>
+                <li><a href="#contact-loc">Contatos</a></li>
+                
+            </ul>
+            <div class="menu-hamb-button hide-on-desktop">
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+                <div class="btn-line"></div>
+            </div> 
+            <div class="github">
+                <button class="button">
+                    <p class="text" onclick="window.open('Currículo.pdf', '_blank')"> Currículo </p>
+                  </button>
+            </div>
+            
+        </nav>
+        <div class="landing">
+            <div class="intro">
+                <h3><Span>Gael H. Kukla</Span><br>Programador Back-end</h3>
+                <a href="#contact-loc"><button>Entre em contato</button></a>
+            </div>
+            <img class="apresentacao__imagem" src="img\imagem_perfil.jpg">
+            <div class="socials">
+                <div class="line"></div>
+                <a href="https://www.instagram.com/kyerui_/"><i class="ri-instagram-fill"></i></a>
+                <a href="https://www.linkedin.com/in/yasmine-huk-kukla/"><i class="ri-linkedin-fill"></i></a>
+            </div>
+        </div>
+
+    </header>
+    <section class="about">
+        <h1>Sobre mim</h1>
+        <div class="description">
+            <div class="line"></div>
+            <p>Meu nome é Gael Huk Kukla, sou estudante de Ciência da Computação pela Universidade Positivo. Estou motivado e dedicado ao objetivo de aplicar minhas habilidades técnicas e me desenvolver profissionalmente  na área de Tecnologia e Programação, no qual busco de oportunidades para <span>HTML, CSS, JavaScript, MySQL, Python,
+            GitHub, C#, C/C++, Angular e Rust</span>. Assim com o desejo de aprender e contribuir significativamente para projetos simples ou <span>desafiadores</span>, estou aberto a novas oportunidades para me estabelecer em um ambiente profissional.</p>
+        </div>
+    </section>
+    <section class="skills" id="skills-loc">
+        <h1>Minhas Habilidades</h1>
+        <div class="cards">
+            <div class="skill-card">
+                <img src="img\Rust.png" alt="">
+                <h2>Rust</h2>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
+                <h2>C#</h2>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" />
+                <h2>Angular</h2>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
+                <h2>C</h2>
+            </div>
+            <div class="skill-card">
+                <img src="img/python.svg" alt="">
+                <h2>Python</h2>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/matplotlib/matplotlib-original.svg" />
+                <h2>MatPlotLib</h2>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg" />
+                <h2>Numpy</h2>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original-wordmark.svg" />
+                <h2>Pandas</h2>
+            </div>
+            <div class="skill-card">
+                <img src="img/flask.svg" alt="">
+                <h2>Flask</h2>
+            </div>
+            <div class="skill-card">
+                <img src="img/html.svg" alt="">
+                <h2>HTML</h2>
+            </div>
+            <div class="skill-card">
+                <img src="img/css.svg" alt="">
+                <h2>CSS</h2>
+            </div>
+            <div class="skill-card">
+                <img src="img/js.svg" alt="">
+                <h2>JavaScript</h2>
+            </div>
+            <div class="skill-card">
+                <img src="img/git.svg" alt="">
+                <h2>GIT</h2>
+            </div>
+            <div class="skill-card">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+                <h2>GitHub</h2>
+            </div>
+            
+            <div class="skill-card">
+                <img src="img/mysql.svg" alt="">
+                <h2>MySQL</h2>
+            </div>          
+            
+        </div>
+    </section>
+    <section class="portfolio" id="portfolio-loc">
+        <h1>Portfolio</h1>
+        <div class="portfolio-cards">
+            <div class="portfolio-card">
+                <img src="img\p1.png" alt="">
+                <div class="overlay">
+                    <h3>Criptografia</h3>
+                    <p>Aplicação console que criptografa e desencriptografa algum dados mandado pelo console, isso pode ser feito em Base64 ou</p>
+                    <a
+                        href="https://github.com/kyeruii/sha256_base64"><button>Código</button></a>
+                </div>
+            </div>
+            <div class="portfolio-card">
+                <img src="img\p2.png" alt="">
+                <div class="overlay">
+                    <h3>Wiki Valorant</h3>
+                    <p>Frontend para um pequeno site Wiki para o jogo Valorant.</p>
+                    <a href="https://github.com/kyeruii/wiki_valorant"><button>Código</button></a>
+                    <a href="https://kyeruii.github.io/wiki_valorant/index.html"><button>Conheça o
+                            projeto</button></a>
+                </div>
+            </div>
+
+        </div>
+        <a href="https://github.com/kyeruii"><Button><i class="ri-github-fill"> GitHub</i></Button></a>
+    </section>
+    <section class="experience">
+        <div class="darker-div"></div>
+        <div class="lighter-div">
+            <h1>Experiência</h1>
+            <div class="exp">
+                <h2>Desenvolvedor Back-end</h2>
+                <div class="exp-desc">
+                    <h3>Araucária, PR</h3>
+                    <p> 
+                        • Desenvolvimento de estratégias para garantir o cumprimento das normas e entrega no prazo estabelecido.<br>
+                        • Divisão de projeto e desenvolvimento de software.<br>
+                        • Avaliação, testes e verificação do software e a ligação com o Banco de Dados e com o
+                        Frontend.<br>
+                        • Garantir a segurança dos dados.<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-me" id="contact-loc">
+        <h1>Entre em contato</h1>
+        <div class="contact">
+            <div class="contact-card">
+                <i class="ri-message-3-line"></i>
+                <p>Gael.Kukla@outlook.com</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-phone-line"></i>
+                <p>(41) 99789-2272</p>
+            </div>
+            <div class="contact-card">
+                <i class="ri-map-pin-3-line"></i>
+                <p>Araucária, PR</p>
+            </div>
+            <a class="contact-card" href="https://www.linkedin.com/in/yasmine-huk-kukla/">
+                <i class="ri-linkedin-box-fill"></i>
+                <p>Linkedin</p>
+            </a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
